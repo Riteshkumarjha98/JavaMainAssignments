@@ -1,0 +1,77 @@
+Write the difference between JRE, JDK and JVM?
+Ans :
+
+JRE:-
+
+JRE stands for java runtime environment. As the name itself suggests, it provides a runtime environment to your program for it's execution.It is also a software package which contains JVM, runtime libraries and other supporting files needed to run a program. 
+
+JDK:-
+
+JDK is an abbreviation for Java Development Kit. It is an environment 
+of software development used for developing applets and Java applications. 
+JDK has a physical existence, and it contains JRE + development tools.
+ One can easily install more than one version of JDK on the same computer.
+ The Java developers can make use of it on macOS, Windows,
+ Linux, and Solaris. JDK assists them in coding and running the Java programs.
+
+JVM:-
+JVM stands for java virtual machine, a virtual machine which loads and executes java programs in memory. 
+JVM:
+Loads code - Loads .class files in memory.
+Verfies code - Verifies the bytecode.
+Interprets code - Converts bytecode into machine specific code.
+Provides runtime environment - Makes availability of dependent classes and libraries.
+Executes code - Executes the code and generate the output.
+Memory management - Manages memory for classes, objects etc. by using garbage collection.
+
+
+ 2. Write the difference between JSE, JEE and JME?
+
+Ans-
+
+JSE:-
+
+This is the core Java platform, it is a specification, which contains the core libraries to
+develop standalone, networking, database, GUI, multithreaded types of applications.
+In addition to the core API, the Java SE platform consists of the virtual machine development tools,
+deployment technologies and other class libraries and toolkit commonly used in Java application.
+
+JEE:-
+JEE stand for Java Enterprise Edition (JEE)
+It is an  platform provides an API and runtime environment for developing and
+running large-scale, multi-tiered, scalable, reliable, and secure network applications.
+
+JME:-
+JME stand for Java Micro Edition (JME)
+It is a subset of Java SE, designed used for microdevices and embedded development
+like mobile phones, sensors, micro-controller, TV set-top boxes etc.
+
+ 3. How does java achieve platform independency?
+
+Ans:-
+
+Java source code does not compile directly into native machine code. Instead, Java compilation generates bytecode, which contains a high-level set of machine instructions that are general enough not to be platform-specific. To run this bytecode, a computer must have a Java Virtual Machine (JVM) installed. When a Java program runs, the JVM interprets the bytecode and then generates native machine code that can be consumed by the CPU.
+
+It's worth noting that the JVM itself is not a cross-platform technology. 
+
+Every architecture and OS must have a specifically designed and built JVM in order for platform-independent Java programs to run. However, since the need for a JVM is universally seen as a priority, every modern OS provides one. This is why the Java's achieve platform independecy and promotional tagline has always been: "Write once, run anywhere.". 
+
+4. What are features of Java and explain them?
+Ans:
+Simple: Java is easy to learn and its syntax is quite simple, clean and easy to understand.
+
+Object-Oriented:- Java is object-oriented, it supports all the OOPS
+characteristics. This makes java applications easy to develop and maintain,
+compared to structured programming language.
+
+Robust:- Java makes an effort to eliminate error prone codes by emphasizing mainly on compile time error checking and runtime checking. But the main areas which Java improved were Memory Management and mishandled Exceptions by introducing automatic Garbage Collector and Exception Handling.
+
+Platform Independent: On compilation Java program is compiled into bytecode. This bytecode is platform independent and can be run on any machine, plus this bytecode format also provide security. Any machine with Java Runtime Environment can run Java Programs.
+
+Secure:- When it comes to security, Java is always the first choice. With java secure features it enable us to develop virus free, temper free system. Java program always runs in Java runtime environment with almost null interaction with system OS, hence it is more secure.
+
+Portable:- Java Byte code can be carried to any platform. No implementation dependent features. Everything related to storage is predefined, example: size of primitive data types
+
+ Multi Threading:- Java multithreading feature makes it possible to write program that can do many tasks simultaneously. Benefit of multithreading is that it utilizes same memory and other resources to execute multiple threads at the same time, like While typing, grammatical errors are checked along.
+
+
